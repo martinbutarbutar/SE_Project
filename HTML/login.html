@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_Page</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <div class="logo">
+                <img src="../ASSETS/BOLCA logo (ambil yang atas).png" alt="logo">
+            </div>
+            <div class="sign_up">
+                <a href="#">Sign up</a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container1">
+            <div class="img_signIn">
+                <img src="../ASSETS/tl-4.webp" alt="img4">
+            </div>
+            <div class="elips1"></div>
+        </div>
+        <div class="textLogin">
+            <h2>Log in to BOLCA</h2>
+        </div>
+        <div class="formulir">
+            <form 
+                name="loginForm"
+                onsubmit="return validateInput()">
+                <div class="input">
+                    <div class="keterangan">
+                        <label for="username/email">
+                            Username or Email
+                            <ion-icon name="alert-circle-sharp"></ion-icon>
+                        </label>
+                    </div>
+                    <input type="text" name="username_or_email" placeholder="Enter username or email" id="username_or_email">
+                </div>
+                <div class="input">
+                    <div class="keterangan">
+                        <label for="psw">
+                            Password
+                            <ion-icon name="alert-circle-sharp"></ion-icon>
+                        </label>
+                    </div>
+                    <div class="boxPW">
+                        <input type="password" name="psw" placeholder="Password" id="pw">
+                        <div class="eye_closed">
+                            <ion-icon name="eye-off-sharp" id="closed"></ion-icon>
+                        </div>
+                        <div class="eye_open">
+                            <ion-icon name="eye-sharp" id="open"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="input">
+                    <div class="remember">
+                        <input type="checkbox" name="remember">
+                        Remember Password
+                    </div>
+                </div>
+                <div class="butt">
+                    <div class="ellips">
+                        <div class="ellips1"></div>
+                        <div class="ellips2"></div>
+                    </div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="../JS/login.js"></script>
+
+</body>
+</html>
