@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
   <title>Login Page</title>
   <!-- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> -->
-  <link rel="stylesheet" href="./CSS/login.css">
+  <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
   <header>
@@ -100,12 +100,12 @@ if (isset($_POST['submit'])) {
         </div>
 
         <div class="ellips">
-          <a href="./Login_sign_up_page.html" class="ellips1"></a>
+          <a href="./html/login_sign_up_page.html" class="ellips1"></a>
           <div class="ellips2"></div>
         </div>
 
         <button type="submit" name="submit" id="submit">
-          <a href="./dashboard.html" class="submit">Submit</a>
+          <a href="./html/dashboard.html" class="submit">Submit</a>
         </button>
       </form>
     </div>
