@@ -129,14 +129,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/register.css">
+    <link rel="stylesheet" href="./css/register.css">
     <!-- <script defer src="register.js"></script> -->
     <title>Register Account BOLCA</title>
 </head>
 <body>
     <header>
         <div class="left">
-            <a href="./welcome.html">
+            <a href="./html/welcome.html">
                <img src="./ORNAMEN SOFTWARE PROJECT/BOLCA_logo.png" alt="Logo Bolca" class="logo">
             </a>
         </div>
@@ -195,16 +195,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </form>
         </div>
     </Section>
-
-    <!-- <footer>
-        <form id="account" name="account" method="post" action="register.php">
-            <a href="loading_register.html">
-                <input type="submit" value="Next">
-            </a>
-        </form>
-    </footer> -->
-
-    <!-- <link rel="stylesheet" href="register.php"> -->
-    <!-- <script src="./register.js"></script> -->
 </body>
 </html>
